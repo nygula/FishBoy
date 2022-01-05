@@ -1,0 +1,27 @@
+﻿<Window x:Class="FishBoy.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FishBoy"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" WindowStyle="None" WindowState="Normal" ResizeMode="NoResize" Left="0" Top="0" Background="Black">
+  
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+          
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="2">
+            <local:Loading  Foreground="White"></local:Loading>
+            <Label  Foreground="White" HorizontalAlignment="Center" FontSize="26">正在进行更新 2%</Label>
+            <Label  Foreground="White" HorizontalAlignment="Center" FontSize="26">请保持计算机打开状态</Label>
+        </StackPanel>
+        <Label Grid.Row="3 " Foreground="White" HorizontalAlignment="Center" FontSize="26">计算机可能会重启几次</Label>
+
+    </Grid>
+</Window>
