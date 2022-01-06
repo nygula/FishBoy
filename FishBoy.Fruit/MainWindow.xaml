@@ -1,0 +1,200 @@
+﻿<Window x:Class="FishBoy.Fruit.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FishBoy.Fruit"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="800" Width="450">
+    <Grid Background="SaddleBrown">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="5*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+
+            </Grid.ColumnDefinitions>
+            <StackPanel Orientation="Horizontal" Grid.Column="0">
+                <Image Source="/Images/touzhu.png" Width="60"></Image>
+                <Label Content="=0" FontSize="60" ></Label>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Grid.Column="1">
+                <Image Source="/Images/money.png" Width="60"></Image>
+                <Label Content="=0" FontSize="60" ></Label>
+            </StackPanel>
+        </Grid>
+
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <StackPanel Grid.Column="0" Margin="5">
+                <Label HorizontalAlignment="Center" Content="x0"></Label>
+                <Image Source="/Images/boos.png"></Image>
+                <Image Source="/Images/touzhu.png" Width="20"></Image>
+            </StackPanel>
+            <StackPanel Grid.Column="1" Margin="5">
+                <Label HorizontalAlignment="Center" Content="x0"></Label>
+
+                <Image Source="/Images/juzi.png"></Image>
+                <Image Source="/Images/touzhu.png" Width="20"></Image>
+            </StackPanel>
+            <StackPanel Grid.Column="2" Margin="5">
+                <Label HorizontalAlignment="Center" Content="x0"></Label>
+
+                <Image Source="/Images/lingdang.png"></Image>
+                <Image Source="/Images/touzhu.png" Width="20"></Image>
+            </StackPanel>
+            <StackPanel Grid.Column="3" Margin="5">
+                <Label HorizontalAlignment="Center" Content="x0"></Label>
+
+                <Image Source="/Images/ningmeng.png"></Image>
+                <Image Source="/Images/touzhu.png" Width="20"></Image>
+            </StackPanel>
+            <StackPanel Grid.Column="4" Margin="5">
+                <Label HorizontalAlignment="Center" Content="x0"></Label>
+
+                <Image Source="/Images/pingguo.png"></Image>
+                <Image Source="/Images/touzhu.png" Width="20"></Image>
+            </StackPanel>
+            <StackPanel Grid.Column="5" Margin="5">
+                <Label HorizontalAlignment="Center" Content="x0"></Label>
+
+                <Image Source="/Images/shuangqi.png"></Image>
+                <Image Source="/Images/touzhu.png" Width="20"></Image>
+            </StackPanel>
+            <StackPanel Grid.Column="6" Margin="5">
+                <Label HorizontalAlignment="Center" Content="x0"></Label>
+
+                <Image Source="/Images/shuangxing.png"></Image>
+                <Image Source="/Images/touzhu.png" Width="20"></Image>
+            </StackPanel>
+            <StackPanel Grid.Column="7" Margin="5">
+                <Label HorizontalAlignment="Center" Content="x0"></Label>
+
+                <Image Source="/Images/xigua.png"></Image>
+                <Image Source="/Images/touzhu.png" Width="20"></Image>
+            </StackPanel>
+        </Grid>
+
+
+        <Grid Grid.Row="1" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <Border BorderThickness="1" BorderBrush="White" Grid.Row="0" Grid.Column="0">
+                <Image Source="/Images/juzi.png" Stretch="Fill"></Image>
+            </Border>
+            <Border BorderThickness="1" BorderBrush="White" Grid.Row="0" Grid.Column="1">
+                <Image Source="/Images/lingdang.png" Stretch="Fill"></Image>
+            </Border>
+            <Border BorderThickness="1" BorderBrush="White" Grid.Row="0" Grid.Column="2">
+                <Image Source="/Images/boos_x.png" Stretch="Fill"></Image>
+            </Border>
+            <Border BorderThickness="1" BorderBrush="White" Grid.Row="0" Grid.Column="3">
+                <Image Source="/Images/boos.png" Stretch="Fill"></Image>
+            </Border>
+            <Border BorderThickness="1" BorderBrush="White" Grid.Row="0" Grid.Column="4">
+                <Image Source="/Images/pingguo.png" Stretch="Fill"></Image>
+            </Border>
+            <Border BorderThickness="1" BorderBrush="White" Grid.Row="0" Grid.Column="5">
+                <Image Source="/Images/pingguo_x.png" Stretch="Fill"></Image>
+            </Border>
+            <Border BorderThickness="1" BorderBrush="White" Grid.Row="0" Grid.Column="6">
+                <Image Source="/Images/ningmeng.png" Stretch="Fill"></Image>
+            </Border>
+            <Border BorderThickness="1" BorderBrush="White" Grid.Row="1" Grid.Column="6">
+                <Image Source="/Images/xigua.png" Stretch="Fill"></Image>
+            </Border>
+            <Border BorderThickness="1" BorderBrush="White" Grid.Row="2" Grid.Column="6">
+                <Image Source="/Images/xigua_x.png" Stretch="Fill"></Image>
+            </Border>
+            <Border BorderThickness="1" BorderBrush="White" Grid.Row="3" Grid.Column="6">
+                <Image Source="/Images/luck1.png" Stretch="Fill"></Image>
+            </Border>
+            <Border BorderThickness="1" BorderBrush="White" Grid.Row="4" Grid.Column="6">
+                <Image Source="/Images/pingguo.png" Stretch="Fill"></Image>
+            </Border>
+            <Border BorderThickness="1" BorderBrush="White" Grid.Row="5" Grid.Column="6">
+                <Image Source="/Images/juzi_x.png" Stretch="Fill"></Image>
+            </Border>
+            <Border BorderThickness="1" BorderBrush="White" Grid.Row="6" Grid.Column="6">
+                <Image Source="/Images/juzi.png" Stretch="Fill"></Image>
+            </Border>
+            <Border BorderThickness="1" BorderBrush="White" Grid.Row="6" Grid.Column="5">
+                <Image Source="/Images/lingdang.png" Stretch="Fill"></Image>
+            </Border>
+            <Border BorderThickness="1" BorderBrush="Red" Grid.Row="6" Grid.Column="4">
+                <Image Source="/Images/shuangqi_x.png" Stretch="Fill"></Image>
+            </Border>
+            <Border BorderThickness="1" BorderBrush="White" Grid.Row="6" Grid.Column="3">
+                <Image Source="/Images/shuangqi.png" Stretch="Fill"></Image>
+            </Border>
+            <Border BorderThickness="1" BorderBrush="White" Grid.Row="6" Grid.Column="2">
+                <Image Source="/Images/pingguo.png" Stretch="Fill"></Image>
+            </Border>
+            <Border BorderThickness="1" BorderBrush="White" Grid.Row="6" Grid.Column="1">
+                <Image Source="/Images/ningmeng_x.png" Stretch="Fill"></Image>
+            </Border>
+            <Border BorderThickness="1" BorderBrush="White" Grid.Row="6" Grid.Column="0">
+                <Image Source="/Images/ningmeng.png" Stretch="Fill"></Image>
+            </Border>
+            <Border BorderThickness="1" BorderBrush="White" Grid.Row="5" Grid.Column="0">
+                <Image Source="/Images/shuangxing.png" Stretch="Fill"></Image>
+            </Border>
+            <Border BorderThickness="1" BorderBrush="White" Grid.Row="4" Grid.Column="0">
+                <Image Source="/Images/shuangxing_x.png" Stretch="Fill"></Image>
+            </Border>
+            <Border BorderThickness="1" BorderBrush="White" Grid.Row="3" Grid.Column="0">
+                <Image Source="/Images/luck2.png" Stretch="Fill"></Image>
+            </Border>
+            <Border BorderThickness="1" BorderBrush="White" Grid.Row="2" Grid.Column="0">
+                <Image Source="/Images/pingguo.png" Stretch="Fill"></Image>
+            </Border>
+            <Border BorderThickness="1" BorderBrush="White" Grid.Row="1" Grid.Column="0">
+                <Image Source="/Images/lingdang_x.png" Stretch="Fill"></Image>
+            </Border>
+
+            <Image Source="/Images/statr.png" Grid.Row="5" Grid.Column="2" Grid.ColumnSpan="3" Margin="5"></Image>
+            <Grid Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="5">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Border BorderThickness="1" BorderBrush="Black" Margin="5" CornerRadius="5" Grid.Column="0">
+                    <Label FontSize="30" Content="100" HorizontalAlignment="Center" VerticalAlignment="Center"></Label>
+                </Border>
+                <Border BorderThickness="1" BorderBrush="Black" Margin="5" CornerRadius="5" Grid.Column="1">
+                    <Label FontSize="30" Content="100" HorizontalAlignment="Center" VerticalAlignment="Center"></Label>
+
+                </Border>
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>

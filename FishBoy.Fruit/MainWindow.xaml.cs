@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace FishBoy
+namespace FishBoy.Fruit
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -23,13 +23,6 @@ namespace FishBoy
         public MainWindow()
         {
             InitializeComponent();
-
-
-            this.Width = System.Windows.SystemParameters.PrimaryScreenWidth;
-            this.Height = System.Windows.SystemParameters.PrimaryScreenHeight;
-            Mouse.OverrideCursor = Cursors.None;
-
-
         }
     }
 }
